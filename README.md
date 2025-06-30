@@ -13,17 +13,16 @@ Los valores están normalizados entre 0 y 2𝜋 radianes, por lo que un pico alr
 
 ## Gráfica 2
 <div align="center">
-<img width=600px src="https://github.com/GuilleAQ/P3_MSR/blob/main/resources/figures/aceleracion.png" alt="explode"></a> 
+<img width=600px src="https://github.com/GuilleAQ/P3_MSR/blob/main/resources/figures/aceleracion_ruedas.png" alt="explode"></a> 
 </div>
-Ahora vemos la aceleración angular aproximada de todos los joints del robot, obtenida mediante la derivada numérica de la velocidad angular.
-Se pueden ver picos significativos en los primeros segundos, asociados al arranque y paradas repentinas del robot.
-Después de la fase de arranque, la mayoría de las aceleraciones se mantienen cercanas a cero, lo que indica movimientos más estables y uniformes de los distintos elementos (ruedas, articulaciones del brazo, dedos del gripper, etc.).
-El pequeño ruido presente en la señal refleja ligeras oscilaciones en la dinámica del sistema, y son normales.
+Ahora vemos la aceleración angular aproximada e las cuatro ruedas del robot, calculada como la derivada de su velocidad angular.
+Se observan picos de aceleración elevados al inicio, que corresponden a las fases de arranque y los cambios de velocidad repentinos. Estos picos reflejan la respuesta dinámica rápida de los motores de las ruedas cuando reciben órdenes de movimiento a través de la teleoperacion.
+Una vez superada la fase de arranque, la aceleración cae a cero y se mantiene constante, indicando que las ruedas giran a velocidad estable o permanecen en reposo (a velocidad 0) sin nuevas órdenes de aceleración, en coherencia con la tarea de pick and place posterior donde el robot permanece detenido.
 
 
 
 
-## Gráfica 2
+## Gráfica 3
 <div align="center">
 <img width=600px src="https://github.com/GuilleAQ/P3_MSR/blob/main/resources/figures/gasto.png" alt="explode"></a> 
 </div>
