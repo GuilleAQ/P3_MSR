@@ -55,3 +55,6 @@ Las ruedas también presentan picos de esfuerzo al inicio de la trayectoria, con
 <div align="center">
 <img width=600px src="https://github.com/GuilleAQ/P3_MSR/blob/main/resources/figures/parteA_tfs.png" alt="explode"></a> 
 </div>
+
+## Enlace al arbol de transformadas
+[frames](https://github.com/GuilleAQ/P3_MSR/blob/main/resources/frames.pdf)
